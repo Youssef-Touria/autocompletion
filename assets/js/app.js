@@ -1,3 +1,4 @@
+console.log("JS OK ✅");
 const input = document.getElementById("searchInput");
 const box = document.getElementById("suggestions");
 console.log("input:", input, "box:", box);

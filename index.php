@@ -10,11 +10,23 @@
 <?php require 'header.php'; ?>
 
 <main class="home">
-    <h1>Mon moteur de recherche</h1>
-    <p>Commence à taper pour voir les suggestions.</p>
+  <h1>Mon moteur de recherche</h1>
+  <p>Commence à taper pour voir les suggestions.</p>
+
+  <div class="search">
+    <input
+      id="search"
+      type="text"
+      placeholder="Rechercher..."
+      autocomplete="off"
+    >
+    <ul id="suggestions"></ul>
+  </div>
 </main>
 
-<script src="assets/js/app.js"></script>
+
+<script src="assets/js/app.js" defer></script>
+
 </body>
 </html>
 

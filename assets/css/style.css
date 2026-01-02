@@ -148,3 +148,76 @@ body {
   image-rendering: pixelated;
 }
 
+/* ===== STYLES POUR LES IMAGES DANS L'AUTOCOMPLÉTION ===== */
+.suggest-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.suggest-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 5px;
+  flex-shrink: 0;
+}
+
+.suggest-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.suggest-name {
+  font-weight: 600;
+  font-size: 15px;
+  color: #202124;
+  margin-bottom: 4px;
+}
+
+.suggest-types {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.type-badge {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+}
+
+/* Couleurs par type de Pokémon */
+.type-electrik {
+  background-color: #f7d02c;
+  color: #333;
+}
+
+.type-plante {
+  background-color: #7ac74c;
+}
+
+.type-poison {
+  background-color: #a33ea1;
+}
+
+.type-feu {
+  background-color: #ee8130;
+}
+
+.type-eau {
+  background-color: #6390f0;
+}
+
+.type-vol {
+  background-color: #a98ff3;
+}
+
+.type-default {
+  background-color: #a8a878;
+}
